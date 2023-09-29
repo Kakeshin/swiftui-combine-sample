@@ -51,9 +51,8 @@
 		65D141A62AC7123F00BBD7C5 /* swiftui-combine-sample */ = {
 			isa = PBXGroup;
 			children = (
-				65D141A72AC7123F00BBD7C5 /* swiftui_combine_sampleApp.swift */,
-				65D141A92AC7123F00BBD7C5 /* ContentView.swift */,
-				65D141AB2AC7124200BBD7C5 /* Assets.xcassets */,
+				65D141B52AC715A800BBD7C5 /* Views */,
+				65D141B62AC715B300BBD7C5 /* Resources */,
 				65D141AD2AC7124200BBD7C5 /* Preview Content */,
 			);
 			path = "swiftui-combine-sample";
@@ -65,6 +64,31 @@
 				65D141AE2AC7124200BBD7C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65D141B52AC715A800BBD7C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65D141A72AC7123F00BBD7C5 /* swiftui_combine_sampleApp.swift */,
+				65D141A92AC7123F00BBD7C5 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65D141B62AC715B300BBD7C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65D141B72AC7163600BBD7C5 /* Fake */,
+				65D141AB2AC7124200BBD7C5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		65D141B72AC7163600BBD7C5 /* Fake */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
