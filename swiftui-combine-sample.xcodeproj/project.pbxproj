@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65C5890A2AC71A54008DEF2A /* HelloEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C589092AC71A54008DEF2A /* HelloEntity.swift */; };
+		65C5890D2AC71AEB008DEF2A /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5890C2AC71AEB008DEF2A /* APIEndPoint.swift */; };
+		65C589112AC71B19008DEF2A /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C589102AC71B19008DEF2A /* HttpMethod.swift */; };
+		65C589132AC71B43008DEF2A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C589122AC71B43008DEF2A /* APIError.swift */; };
+		65C589162AC71BD3008DEF2A /* HelloEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C589152AC71BD3008DEF2A /* HelloEndPoint.swift */; };
+		65C589182AC71C6C008DEF2A /* hello.json in Resources */ = {isa = PBXBuildFile; fileRef = 65C589172AC71C6C008DEF2A /* hello.json */; };
+		65C5891A2AC71CFC008DEF2A /* HelloStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C589192AC71CFC008DEF2A /* HelloStore.swift */; };
+		65C5891D2AC71DC5008DEF2A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5891C2AC71DC5008DEF2A /* APIClient.swift */; };
+		65C5891F2AC71E11008DEF2A /* FakeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5891E2AC71E11008DEF2A /* FakeAPIClient.swift */; };
+		65C589212AC71EC7008DEF2A /* RestAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C589202AC71EC7008DEF2A /* RestAPIClient.swift */; };
+		65C589242AC71FE6008DEF2A /* AppDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C589232AC71FE6008DEF2A /* AppDataProvider.swift */; };
 		65D141A82AC7123F00BBD7C5 /* swiftui_combine_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D141A72AC7123F00BBD7C5 /* swiftui_combine_sampleApp.swift */; };
 		65D141AA2AC7123F00BBD7C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D141A92AC7123F00BBD7C5 /* ContentView.swift */; };
 		65D141AC2AC7124200BBD7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D141AB2AC7124200BBD7C5 /* Assets.xcassets */; };
@@ -14,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65C589092AC71A54008DEF2A /* HelloEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloEntity.swift; sourceTree = "<group>"; };
+		65C5890C2AC71AEB008DEF2A /* APIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
+		65C589102AC71B19008DEF2A /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		65C589122AC71B43008DEF2A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		65C589152AC71BD3008DEF2A /* HelloEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloEndPoint.swift; sourceTree = "<group>"; };
+		65C589172AC71C6C008DEF2A /* hello.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hello.json; sourceTree = "<group>"; };
+		65C589192AC71CFC008DEF2A /* HelloStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloStore.swift; sourceTree = "<group>"; };
+		65C5891C2AC71DC5008DEF2A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		65C5891E2AC71E11008DEF2A /* FakeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAPIClient.swift; sourceTree = "<group>"; };
+		65C589202AC71EC7008DEF2A /* RestAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIClient.swift; sourceTree = "<group>"; };
+		65C589232AC71FE6008DEF2A /* AppDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataProvider.swift; sourceTree = "<group>"; };
+		65C589252AC72062008DEF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		65D141A42AC7123F00BBD7C5 /* swiftui-combine-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-combine-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D141A72AC7123F00BBD7C5 /* swiftui_combine_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_combine_sampleApp.swift; sourceTree = "<group>"; };
 		65D141A92AC7123F00BBD7C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +55,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65C589052AC718B6008DEF2A /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				65C589192AC71CFC008DEF2A /* HelloStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		65C589072AC71A2B008DEF2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65C589082AC71A33008DEF2A /* Entities */,
+				65C5890B2AC71AD9008DEF2A /* EndPoint */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65C589082AC71A33008DEF2A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				65C589092AC71A54008DEF2A /* HelloEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		65C5890B2AC71AD9008DEF2A /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				65C5890C2AC71AEB008DEF2A /* APIEndPoint.swift */,
+				65C589152AC71BD3008DEF2A /* HelloEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		65C5890E2AC71B07008DEF2A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				65C5890F2AC71B0D008DEF2A /* Constants */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		65C5890F2AC71B0D008DEF2A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				65C589102AC71B19008DEF2A /* HttpMethod.swift */,
+				65C589122AC71B43008DEF2A /* APIError.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		65C5891B2AC71DAF008DEF2A /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				65C5891C2AC71DC5008DEF2A /* APIClient.swift */,
+				65C5891E2AC71E11008DEF2A /* FakeAPIClient.swift */,
+				65C589202AC71EC7008DEF2A /* RestAPIClient.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		65C589222AC71FDA008DEF2A /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				65C589232AC71FE6008DEF2A /* AppDataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		65D1419B2AC7123F00BBD7C5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +143,12 @@
 		65D141A62AC7123F00BBD7C5 /* swiftui-combine-sample */ = {
 			isa = PBXGroup;
 			children = (
+				65C589252AC72062008DEF2A /* Info.plist */,
+				65C5890E2AC71B07008DEF2A /* Common */,
+				65C589072AC71A2B008DEF2A /* Models */,
+				65C5891B2AC71DAF008DEF2A /* Sessions */,
+				65C589222AC71FDA008DEF2A /* Provider */,
+				65C589052AC718B6008DEF2A /* Stores */,
 				65D141B52AC715A800BBD7C5 /* Views */,
 				65D141B62AC715B300BBD7C5 /* Resources */,
 				65D141AD2AC7124200BBD7C5 /* Preview Content */,
@@ -87,6 +185,7 @@
 		65D141B72AC7163600BBD7C5 /* Fake */ = {
 			isa = PBXGroup;
 			children = (
+				65C589172AC71C6C008DEF2A /* hello.json */,
 			);
 			path = Fake;
 			sourceTree = "<group>";
@@ -151,6 +250,7 @@
 			files = (
 				65D141AF2AC7124200BBD7C5 /* Preview Assets.xcassets in Resources */,
 				65D141AC2AC7124200BBD7C5 /* Assets.xcassets in Resources */,
+				65C589182AC71C6C008DEF2A /* hello.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C5891F2AC71E11008DEF2A /* FakeAPIClient.swift in Sources */,
+				65C589162AC71BD3008DEF2A /* HelloEndPoint.swift in Sources */,
+				65C5890A2AC71A54008DEF2A /* HelloEntity.swift in Sources */,
 				65D141AA2AC7123F00BBD7C5 /* ContentView.swift in Sources */,
+				65C589112AC71B19008DEF2A /* HttpMethod.swift in Sources */,
+				65C5891A2AC71CFC008DEF2A /* HelloStore.swift in Sources */,
+				65C589242AC71FE6008DEF2A /* AppDataProvider.swift in Sources */,
 				65D141A82AC7123F00BBD7C5 /* swiftui_combine_sampleApp.swift in Sources */,
+				65C589212AC71EC7008DEF2A /* RestAPIClient.swift in Sources */,
+				65C5890D2AC71AEB008DEF2A /* APIEndPoint.swift in Sources */,
+				65C589132AC71B43008DEF2A /* APIError.swift in Sources */,
+				65C5891D2AC71DC5008DEF2A /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +406,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-combine-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = V856RZTXN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-combine-sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,8 +436,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-combine-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = V856RZTXN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-combine-sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

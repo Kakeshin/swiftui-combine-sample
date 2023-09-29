@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var helloStore = HelloStore(dataProvider: AppDataProvider())
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button {
+                helloStore.fetchData()
+            } label: {
+                Text("Tap!!!")
+            }
+            .padding()
+            Spacer()
+            if helloStore.data != nil {
+                Text(helloStore.data?.name ?? "")
+            }
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
